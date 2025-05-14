@@ -20,7 +20,6 @@ This project you are going to automate the Terraform  setup of two EC2 instances
 ├── terraform.tf     # Configure backend with S3
 ├── dynamodb.tf      # Create DynamoDB table for state locking
 ```
-_Note:- All Files are avaiable on GitHub Repository._
 ## 📦 Project Features
 - Two EC2 instances with user-defined instance types.
 
@@ -151,9 +150,9 @@ git --version
 _Clone the Terraform project repository to your EC2 instance using Git._
 ```bash
 # Clone Code from Github
-git clone <your-repository-url>
+git clone https://github.com/iam-avinash-jagtap/Terraform-Powered-EC2-Provisioning-with-Nginx-and-Remote-State-Management.git
 # Redirect to your project directory
-cd <your-project-directory>/EC2_Instance_with_Nginx
+cd Terraform-Powered-EC2-Provisioning-with-Nginx-and-Remote-State-Management/EC2_Instance_with_Nginx
 # Verify Files - ec2.tf     provider.tf     terraform.tf        variable.tf     output.tf       nginx.sh
 ```
 ## 6️⃣ Initialize Terraform
@@ -199,7 +198,7 @@ Welcome to nginx _ By Tech_aj Using Terraform
 # 🧾 Terraform State Management
 ```bash
 # Redirect to your project directory
-cd <state-management-directory>/Terraform_Remote_State
+cd Terraform-Powered-EC2-Provisioning-with-Nginx-and-Remote-State-Management/Terraform_Remote_State
 # Verify Files - s3.tf     provider.tf     terraform.tf        dynamodb.tf
 ```
 ## 1️⃣0️⃣ Initialize Terraform
